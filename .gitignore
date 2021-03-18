@@ -1,0 +1,5 @@
+.idea
+*.?ml
+/src/test/
+/target/
+
