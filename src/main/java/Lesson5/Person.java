@@ -52,14 +52,10 @@ public class Person {
     public void print() {
         String years = "";
         switch (this.getAge() % 10) {
-             case 1 :
-                 years = "год";
-                 break;
+             case 1 : years = "год"; break;
              case 2 :
              case 3 :
-             case 4 :
-                 years = "года";
-                 break;
+             case 4 : years = "года"; break;
              default: years = "лет";
         }
         System.out.println("ФИО: " + this.getSurname() + " " + this.getName() + " " + this.getPatronymic() + " (" + this.getAge() + " " + years + ")");
