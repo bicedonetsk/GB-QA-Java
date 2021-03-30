@@ -13,7 +13,7 @@ public class Person {
     private static final String[] surnamesForMail = {"ivanov", "petrov", "sidrov", "smirnov", "kuznetcov", "popov", "morozov", "kozlov", "fedorov", "tarasov"};
     private static final String[] names = {"Иван", "Петр", "Артём", "Александр", "Алексей", "Михаил", "Андрей", "Роман", "Сергей"};
     private static final String[] namesForMail = {"i", "p", "a", "a", "a", "m", "a", "r", "s"};
-    private static final String[] patronymics = {"Иванов", "Петров", "Виссарионович", "Алексеевич", "Александрович", "Михаилович", "Андрееевич", "Романович", "Сергеевич"};
+    private static final String[] patronymics = {"Иванович", "Петрович", "Виссарионович", "Алексеевич", "Александрович", "Михаилович", "Андрееевич", "Романович", "Сергеевич"};
     private static final String[] patronymicsForMAil = {"i", "p", "v", "a", "a", "m", "a", "r", "s"};
     private static final String[] positions = {"инженер", "нахлебник"};
     private static final String compname = "firmname";
