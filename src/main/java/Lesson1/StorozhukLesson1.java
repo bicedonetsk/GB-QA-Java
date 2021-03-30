@@ -1,6 +1,7 @@
+package Lesson1;
+
 public class StorozhukLesson1 {
     public static void main(String[] args) {
-        /*
 
         System.out.println("Storozhuk Ivan homework for lesson 1");
 
@@ -46,10 +47,10 @@ public class StorozhukLesson1 {
 
         // tsak 7
         task7("BigBoss");
-        */
+
     }
 
-    /*
+
 
     public static float task3 () {
         // tasks 3
@@ -62,7 +63,7 @@ public class StorozhukLesson1 {
         float floatValD = 0.5F;
 
         return (floatValA * (floatValB + (floatValC/floatValD)));
-    };
+    }
 
     public static boolean task4 (int intInVal1, int intInVal2) {
         // task 4
@@ -78,7 +79,7 @@ public class StorozhukLesson1 {
             }
         }
         return (boolOutVal1);
-    };
+    }
 
     public static void task5 (int intInVal1) {
         // task 5
@@ -109,5 +110,4 @@ public class StorozhukLesson1 {
         System.out.println("«Привет, " + strInVal1 + "!»");
     }
 
-     */
 }
