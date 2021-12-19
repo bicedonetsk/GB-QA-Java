@@ -3,7 +3,7 @@ package Lesson04;
 import java.util.Random;
 import java.util.Scanner;
 
-public class storozhuk_homework4 {
+public class storozhuk_homework04 {
 
     public static final boolean debug = false;
     public static final boolean whole = true;

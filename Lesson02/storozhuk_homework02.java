@@ -1,6 +1,6 @@
 package Lessons02_Storozhuk;
 
-public class storozhuk_homework {
+public class storozhuk_homework02 {
     public static void main(String[] args) {
 
 //part 1

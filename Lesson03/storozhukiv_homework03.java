@@ -2,7 +2,7 @@ package Lesson03_Storozhuk;
 
 import java.util.Random;
 
-public class storozhukiv_homework3 {
+public class storozhukiv_homework03 {
     public static Random random = new Random();
 
     public static void main(String[] args) {
