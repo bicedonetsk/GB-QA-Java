@@ -6,12 +6,14 @@ public abstract class Animal {
     public String name;
     public int runLimit;
     public int swimLimit;
+    public static int countAnimals = 0;
 
     public Animal(String typename, String name, int runLimit, int swimLimit) {
         this.typeName = typename;
         this.name = name;
         this.runLimit = runLimit;
         this.swimLimit = swimLimit;
+        countAnimals++;
     }
 
     public void run (int runDistance) {
@@ -37,7 +39,5 @@ public abstract class Animal {
             }
         }
     }
-
-    //public abstract void talk () {};
 
 }

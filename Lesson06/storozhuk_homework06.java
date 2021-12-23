@@ -4,14 +4,9 @@ public class storozhuk_homework06 {
 
     public static void main(String[] args) {
 
-//        int countAnimals = 0;
-//        int countCats = 0;
-//        int countDogs = 0;
-//
-//        System.out.println("Animals: " + countAnimals + ", cats: " + countCats + ", dogs: " + countDogs);
         Cat cat1 = new Cat("Barsik");
         Dog dog1 = new Dog("Tuzik");
-//        System.out.println("Animals: " + countAnimals + ", cats: " + countCats + ", dogs: " + countDogs);
+        System.out.println("Animals: " + Animal.countAnimals + ", cats: " + Cat.countCats + ", dogs: " + Dog.countDogs);
 
         cat1.run(-1);
         cat1.run(0);
